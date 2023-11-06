@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\alber\Desktop\Projetos\Tabela da Copa\img\imagens\logo_copa - Copia.png">
+    <title>Tabela da Copa do Mundo 2022</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/grupoA.js"></script>
+</head>
+<body style="background-color:#690825;">
+    <main class="tela-principal">
+        <h1 style="color:#FFFFFF" align="center"><font face="Qatar2022 Medium">Tabela da Copa do Mundo</font></h1>
+        <h2 style="color:#FFFFFF" align="center"><font face="Qatar2022 Medium">Qatar 2022</font></h2>
+       
+    <!--GRUPO A-->
+        <table> 
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo A</th>
+                </tr>
+            <tr>
+                <font face="Qatar2022 Medium" align="center"</font>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Catar</font></td>
+                <td><input type="text" id="aJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF"align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input type="text" id="aJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF"align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Equador</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Senegal</font></td>
+                <td><input type="text" id="aJogo2a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input type="text" id="aJogo2b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Holanda</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Catar</font></td>
+                <td><input type="text" id="aJogo3a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input type="text" id="aJogo3b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Senegal</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Holanda</font></td>
+                <td><input type="text" id="aJogo4a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input type="text" id="aJogo4b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Equador</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Equador</font></td>
+                <td><input type="text" id="aJogo5a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input type="text" id="aJogo5b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Senegal</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Holanda</font></td>
+                <td><input type="text" id="aJogo6a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input type="text" id="aJogo6b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Catar</font></td>
+            </tr>
+            </thead>
+        </table>
+    
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo A</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+
+        <!--GRUPO B-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo B</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Inglaterra</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Irã</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Estados Unidos</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Gales</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Gales</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Irã</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Inglaterra</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Estados Unidos</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Gales</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Inglaterra</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Irã</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Estados Unidos</font></td>
+            </tr>
+            </thead>
+        </table>
+
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo B</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+        <!--grupo c-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo C</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Argentina</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Arábia S.</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">México</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Polônia</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Polônia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Arábia S.</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Argentina</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">México</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Polônia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Argentina</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Arábia S.</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">México</font></td>
+            </tr>
+            </thead>
+        </table>
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo C</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+
+        <!--grupo d-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo D</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Dinamarca</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Tunísia</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">França</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Austrália</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Tunísia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Austrália</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">França</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Dinamarca</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Tunísia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">França</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Austrália</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Dinamarca</font></td>
+            </tr>
+            </thead>
+        </table>
+
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo D</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+
+        <!--grupo E-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo E</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Alemanha</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Japão</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Espanha</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Costa Rica</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Japão</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Costa Rica</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Espanha</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Alemanha</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Japão</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Espanha</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Costa Rica</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Alemanha</font></td>
+            </tr>
+            </thead>
+        </table>
+
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo E</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+
+        <!--grupo f-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo F</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Marrocos</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Croácia</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Bélgica</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Canadá</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Bélgica</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Marrocos</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Croácia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Canadá</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Croácia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Bélgica</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Canadá</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Marrocos</font></td>
+            </tr>
+            </thead>
+        </table>
+
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo F</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+
+        <!--grupo g-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo G</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Suíça</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Camarões</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Brasil</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Sérvia</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Camarões</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Sérvia</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Brasil</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Suíça</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Camarões</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Brasil</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Sérvia</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Suíça</font></td>
+            </tr>
+            </thead>
+        </table>
+
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo G</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+
+        <!--grupo h-->
+        <table> <font face="Qatar2022 Medium"</font>
+            <thead>
+                <tr>
+                    <th bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Partidas</font> 
+                        <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium"> Grupo H</th>
+                </tr>
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Uruguai</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Coreia do Sul</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Portugal</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Gana</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Coreia do Sul</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Gana</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Portugal</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Uruguai</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Coreia do Sul</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Portugal</font></td>
+            </tr>
+
+            <tr>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Gana</font></td>
+                <td><input class="placar" type="text" id="bJogo1a" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">X</font></td>
+                <td><input class="placar" type="text" id="bJogo1b" maxlength="2"></td>
+                <td style="color:#FFFFFF" align='center'><font color="#FFFFFF" face="Qatar2022 Medium">Uruguai</font></td>
+            </tr>
+            </thead>
+        </table>
+
+        <table><font face="Qatar2022 Medium" align="center"</font>
+            <thead>
+            <tr>
+                <th colspan="10" bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Classificação Grupo H</font></th>
+            </tr>
+            <tr>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">Seleções</font></th>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">JP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">V</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">E</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">D</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GP</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">GC</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">SG</th></font>
+                <th style="color:#FFFFFF"bgcolor="#FFFFFF"><font color="#690825" face="Qatar2022 Medium">PT</th></font>
+            </tr>
+
+            <tr></tr>
+                <td><output type="text" id="aSel0"></output></td>
+                <td><output type="text" id="aPar0"></output></td>
+                <td><output type="text" id="aVit0"></output></td>
+                <td><output type="text" id="aEmp0"></output></td>
+                <td><output type="text" id="aDer0"></output></td>
+                <td><output type="text" id="aGolM0"></output></td>
+                <td><output type="text" id="aGolS0"></output></td>
+                <td><output type="text" id="aSal0"></output></td>
+                <td><output type="text" id="aPon0"></output></td>
+
+            </tr>
+            
+            <tr>
+                <td><output type="text" id="aSel1"></output></td>
+                <td><output type="text" id="aPar1"></output></td>
+                <td><output type="text" id="aVit1"></output></td>
+                <td><output type="text" id="aEmp1"></output></td>
+                <td><output type="text" id="aDer1"></output></td>
+                <td><output type="text" id="aGolM1"></output></td>
+                <td><output type="text" id="aGolS1"></output></td>
+                <td><output type="text" id="aSal1"></output></td>
+                <td><output type="text" id="aPon1"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel2"></output></td>
+                <td><output type="text" id="aPar2"></output></td>
+                <td><output type="text" id="aVit2"></output></td>
+                <td><output type="text" id="aEmp2"></output></td>
+                <td><output type="text" id="aDer2"></output></td>
+                <td><output type="text" id="aGolM2"></output></td>
+                <td><output type="text" id="aGolS2"></output></td>
+                <td><output type="text" id="aSal2"></output></td>
+                <td><output type="text" id="aPon2"></output></td>
+            </tr>
+
+            <tr>
+                <td><output type="text" id="aSel3"></output></td>
+                <td><output type="text" id="aPar3"></output></td>
+                <td><output type="text" id="aVit3"></output></td>
+                <td><output type="text" id="aEmp3"></output></td>
+                <td><output type="text" id="aDer3"></output></td>
+                <td><output type="text" id="aGolM3"></output></td>
+                <td><output type="text" id="aGolS3"></output></td>
+                <td><output type="text" id="aSal3"></output></td>
+                <td><output type="text" id="aPon3"></output></td>
+            </tr>
+            </thead>
+        </table>
+    </div> 
+
+
+    
+        <h3 style="color:#FFFFFF" align="center">© Copyright 2022. Todos os direitos reservados.</font></h3>
+</body>
+</html>
